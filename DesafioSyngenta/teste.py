@@ -11,7 +11,6 @@ for y in range(img.height):
     pixel = img.getpixel((x, y))
     text += str(pixel)
     if pixel==51:
-        numbersUntilGreenPixel.append(numberPixels)
         numberPixels=0
         cont+=1
         """ img.putpixel((x,y),255) """
@@ -21,7 +20,6 @@ for y in range(img.height):
 print('Numero de pixels verdes:')
 print(cont)
 
-print(numbersUntilGreenPixel)
 File_object.write(text)
 File_object.close()
 img.show()
