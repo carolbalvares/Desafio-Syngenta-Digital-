@@ -1,0 +1,6 @@
+Obs: Os desafios foram feitos com a imagem em .jpg, que tinham diferenças entre os tons de verde e haviam tons escuros sem ser preto espalhados. Pode-se ver isso na imagem contrastada da tentativa 1.
+Tentativa 1: Tentativa de aumentar o contraste entre os pixels que não eram pretos e ver se havia uma imagem escondida. Tentativa falha.
+Tentativa 2: Usar uma biblioteca já pronta. Tentativa falha.
+Tentativa 3: Usar o código pronto do site https://www.geeksforgeeks.org/image-based-steganography-using-python/. Tentativa falha.
+Tentativa 4: Pegar todas as cores, colocá-las em uma lista e dividir por 9. Então teriamos grupos dp tipo [0, 20, 1, 245, 10, 40, 100, 0, 0]. Depois, se o  número fosse par, seria igualado a 0 e se fosse ímpar seria igualado a 1. Sendo assim, teriamos um número binário. Minha esperança era que esse número correspondesse a um número decimal que correspondesse a uma letra no alfabeto normal ou no alfabeto ASCII. Tentativa falha.
+Conclusão: Todas tentativas deram errado pois peguei a imagem em .jpg em vez de pegar em .bmp e não tive tempo para criar novas tentativas com essa resolução de imagem.
